@@ -7,7 +7,7 @@ namespace MotherBlock
 {
     class Game
     {
-        public string Title = @" _____ ______   ________  _________  ___  ___  _______   ________  ________  ___       ________  ________  ___  __       
+        public static string Title = @" _____ ______   ________  _________  ___  ___  _______   ________  ________  ___       ________  ________  ___  __       
 |\   _ \  _   \|\   __  \|\___   ___\\  \|\  \|\  ___ \ |\   __  \|\   __  \|\  \     |\   __  \|\   ____\|\  \|\  \     
 \ \  \\\__\ \  \ \  \|\  \|___ \  \_\ \  \\\  \ \   __/|\ \  \|\  \ \  \|\ /\ \  \    \ \  \|\  \ \  \___|\ \  \/  /|_   
  \ \  \\|__| \  \ \  \\\  \   \ \  \ \ \   __  \ \  \_|/_\ \   _  _\ \   __  \ \  \    \ \  \\\  \ \  \    \ \   ___  \  
@@ -19,8 +19,9 @@ namespace MotherBlock
 
         //Ascii art for MotherBlock: http://www.patorjk.com/software/taag/#p=testall&f=Rectangles&t=MotherBlock
 
-        public void Play()
+        public static void Play()
         {
+            Clear();
             Intro.IntroOne();
             Write("What is your name: ");
             string playerName = ReadLine();
@@ -28,8 +29,22 @@ namespace MotherBlock
             WriteLine("Welcome to " + Title + ", " + currentPlayer.Name + "!");
 
             ReadKey();
+        }
 
-            
+        public static void Menu()
+        {
+            WriteLine(Title);
+
+            WriteLine( "                          1) Start" + "\n                          2)Exit");
+            string choice = ReadLine();
+            if (choice == "1")
+            {
+                Play();
+            }
+            else if (choice == "2")
+            {
+                ReadKey();
+            }
         }
     }
 }

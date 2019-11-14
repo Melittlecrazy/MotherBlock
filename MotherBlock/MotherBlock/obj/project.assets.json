@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marc.gutierrez\\Downloads\\MotherBlock\\MotherBlock\\MotherBlock.csproj",
+      "projectUniqueName": "C:\\Users\\marc.gutierrez\\Documents\\GitHub\\MotherBlock\\MotherBlock\\MotherBlock\\MotherBlock.csproj",
       "projectName": "MotherBlock",
-      "projectPath": "C:\\Users\\marc.gutierrez\\Downloads\\MotherBlock\\MotherBlock\\MotherBlock.csproj",
+      "projectPath": "C:\\Users\\marc.gutierrez\\Documents\\GitHub\\MotherBlock\\MotherBlock\\MotherBlock\\MotherBlock.csproj",
       "packagesPath": "C:\\Users\\marc.gutierrez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marc.gutierrez\\Downloads\\MotherBlock\\MotherBlock\\obj\\",
+      "outputPath": "C:\\Users\\marc.gutierrez\\Documents\\GitHub\\MotherBlock\\MotherBlock\\MotherBlock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -18,6 +18,7 @@ namespace MotherBlock
 \_\_\_\/\/\/
  \_\_\_\/\/
   \_\_\_\/");
+            //add clouds
             WriteLine("You are one of many in this collected unit. Until...");
 
             WriteLine("(press any key to continue)");
@@ -30,49 +31,30 @@ namespace MotherBlock
         {
             Clear();
             WriteLine("You have an unfortunate accident.");
-            //add ascii art of cube falling or forest landscape 
+            WriteLine(@"
+       ^  ^   ^  ^  ^  ^   ^      ___I__      ^  ^   ^  ^  ^   ^  ^
+      /|\/|\ /|\/|\/|\/|\ /|\    /\-_-- \    /|\/|\ /|\/|\/|\ /|\/|\
+      /|\/|\ /|\/|\/|\/|\ /|\   /  \_ -__\   /|\/|\ /|\/|\/|\ /|\/|\
+      /|\/|\ /|\/|\/|\/|\ /|\   |[] | [] |   /|\/|\ /|\/|\/|\ /|\/|\"); 
             WriteLine("You fall to, what seems to be, your death ");
 
             WriteLine("(Press any key to continue)");
             ReadKey();
 
-            //IntroThree();
+            IntroThree();
+            //ascii forest art: https://ascii.co.uk/art/forest
         }
-        //public static void IntroThree()
-        //{
-        //    Clear();
-        //    WriteLine("This is your MotherShip.");
-        //    //add ascii art of giant cube in sky
-        //    WriteLine("You are one of many in this collected unit. Until...");
+        public static void IntroThree()
+        {
+            Clear();
+            WriteLine("You fall for what seems life forever.");
+           // WriteLine(@"");
+            WriteLine("");
 
-        //    WriteLine("(press any key to continue)");
-        //    ReadKey();
+            WriteLine("(press any key to continue)");
+            ReadKey();
 
-        //    IntroFour();
-        //}
-        //public static void IntroFour()
-        //{
-        //    Clear();
-        //    WriteLine("This is your MotherShip.");
-        //    //add ascii art of giant cube in sky
-        //    WriteLine("You are one of many in this collected unit. Until...");
-
-        //    WriteLine("(press any key to continue)");
-        //    ReadKey();
-
-        //    IntroFive();
-        //}
-        //public static void IntroFive()
-        //{
-        //    Clear();
-        //    WriteLine("This is your MotherShip.");
-        //    //add ascii art of giant cube in sky
-        //    WriteLine("You are one of many in this collected unit. Until...");
-
-        //    WriteLine("(press any key to continue)");
-        //    ReadKey();
-
-        //    Scenes.Wake();
-        //}
+            Scenes.Wake();
+        }
     }
 }

@@ -4,10 +4,10 @@ namespace MotherBlock
 {
     class Program
     {
+        //I got help from Lucy Bailey
         static void Main(string[] args)
         {
-            Game currentGame = new Game();
-            currentGame.Play();
+            Game.Menu();
         }
     }
 }
