@@ -49,7 +49,7 @@ namespace MotherBlock
             Clear();
             WriteLine("You fall for what seems life forever.");
            // WriteLine(@"");
-            WriteLine("");
+            WriteLine("Of course before you hit the ground you black out.");
 
             WriteLine("(press any key to continue)");
             ReadKey();
