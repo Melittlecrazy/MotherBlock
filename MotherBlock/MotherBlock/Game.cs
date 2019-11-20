@@ -63,7 +63,7 @@ namespace MotherBlock
      \__\/         \__\/         \__\/         \__\/                  \__\/           ~~~~       \__\/         \__\/    ");
             WriteLine("You died.");
 
-            WriteLine("");
+            WriteLine("1) Restart \n 2) Quit");
             string choice = ReadLine();
             if (choice == "1")
             {

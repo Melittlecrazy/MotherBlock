@@ -32,6 +32,12 @@ namespace MotherBlock
             Clear();
             WriteLine("You have an unfortunate accident.");
             WriteLine(@"
+                
+                  _
+                 |_|=
+
+
+
        ^  ^   ^  ^  ^  ^   ^      ___I__      ^  ^   ^  ^  ^   ^  ^
       /|\/|\ /|\/|\/|\/|\ /|\    /\-_-- \    /|\/|\ /|\/|\/|\ /|\/|\
       /|\/|\ /|\/|\/|\/|\ /|\   /  \_ -__\   /|\/|\ /|\/|\/|\ /|\/|\
@@ -48,7 +54,11 @@ namespace MotherBlock
         {
             Clear();
             WriteLine("You fall for what seems life forever.");
-           // WriteLine(@"");
+            WriteLine(@"
+____^/\___^--____/\____O______________/\/\---/\___________---______________
+   /\^   ^  ^    ^        _         ^^ ^  '\ ^          ^       ---
+         --           -  /_/=        --  -      -         ---  __       ^
+   --  __                      ___--  ^  ^                         --  __");
             WriteLine("Of course before you hit the ground you black out.");
 
             WriteLine("(press any key to continue)");
