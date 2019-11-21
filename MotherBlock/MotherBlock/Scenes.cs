@@ -79,7 +79,7 @@ namespace MotherBlock
         {
             Clear();
 
-            WriteLine("You ran for what seems like hours till you see the Mothership hovering above a mountain. You now know your destination and mush find a way to get there");
+            WriteLine("You ran for what seems like hours till you see the Mothership hovering above a mountain. You now know your destination and must find a way to get there");
             WriteLine();
             WriteLine("You walk towards the mountain, thinking you're getting closer when suddenly you are at the entrance of the cave" +
                 "\nYou here a faint bang of a pickaxe, there might be a miner in here somewhere (or it's a recording from that little shack that some miner looking person is sleeping in...)");
