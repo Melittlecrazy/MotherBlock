@@ -23,12 +23,7 @@ namespace MotherBlock
         {
             Clear();
             Intro.IntroOne();
-            Write("What is your name: ");
-            string playerName = ReadLine();
-            Player currentPlayer = new Player(playerName);
-            WriteLine("Welcome to " + Title + ", " + currentPlayer.Name + "!");
-
-            ReadKey();
+           
         }
 
         public static void Menu()
@@ -64,6 +59,61 @@ namespace MotherBlock
             WriteLine("You died.");
 
             WriteLine("1) Restart \n 2) Quit");
+            string choice = ReadLine();
+            if (choice == "1")
+            {
+                Play();
+            }
+            else if (choice == "2")
+            {
+                ReadKey();
+            }
+        }
+
+        public static void Congrats()
+        {
+            Clear();
+            WriteLine(@"   ______                                         _            __          _    _                          
+ .' ___  |                                       / |_         [  |        / |_ (_)                         
+/ .'   \_|  .--.   _ .--.   .--./) _ .--.  ,--. `| |-'__   _   | |  ,--. `| |-'__   .--.   _ .--.   .--.   
+| |       / .'`\ \[ `.-. | / /'`\;[ `/'`\]`'_\ : | | [  | | |  | | `'_\ : | | [  |/ .'`\ \[ `.-. | ( (`\]  
+\ `.___.'\| \__. | | | | | \ \._// | |    // | |,| |, | \_/ |, | | // | |,| |, | || \__. | | | | |  `'.'.  
+ `.____ .' '.__.' [___||__].',__` [___]   \'-;__/\__/ '.__.'_/[___]\'-;__/\__/[___]'.__.' [___||__][\__) ) 
+                          ( ( __))                                                                         ");
+            WriteLine();
+            WriteLine("You've made it back to you MotherShip!! (but no one realized you were gone...)");
+            WriteLine();
+            WriteLine("Thanks for playing my game!");
+            WriteLine();
+            WriteLine("1) PLay again? \n 2) Quit");
+            string choice = ReadLine();
+            if (choice == "1")
+            {
+                Play();
+            }
+            else if (choice == "2")
+            {
+                ReadKey();
+            }
+        }
+        public static void HappyEverAfter()
+        {
+            Clear();
+            WriteLine(@"     c  c     .-.   \\\  ///   \/   ()_()      (o)__(o)wWw  wWw W  W       (o)__(o)wW  Ww    .-.   \\\  ///  oo_    
+     (OO)   c(O_O)c ((O)(O))  (OO)  (O o)    /)(__  __)(O)  (O)(O)(O)    /)(__  __)(O)(O)  c(O_O)c ((O)(O)) /  _)-< 
+   ,'.--.) ,'.---.`, | \ || ,'.--.)  |^_\  (o)(O)(  )  / )  ( \  ||    (o)(O)(  )   (..)  ,'.---.`, | \ ||  \__ `.  
+  / //_|_\/ /|_|_|\ \||\\||/ /|_|_\  |(_))  //\\  )(  / /    \ \ | \    //\\  )(     ||  / /|_|_|\ \||\\||     `. | 
+  | \___  | \_____/ ||| \ || \_.--.  |  /  |(__)|(  ) | \____/ | |  `. |(__)|(  )   _||_ | \_____/ ||| \ |     _| | 
+  '.    ) '. `---' .`||  ||'.   \) \ )|\\  /,-. | )/  '. `--' .`(.-.__)/,-. | )/   (_/\_)'. `---' .`||  ||  ,-'   | 
+    `-.'    `-...-' (_/  \_) `-.(_.'(/  \)-'   ''(      `-..-'   `-'  -'   ''(             `-...-' (_/  \_)(_..--'  ");
+            WriteLine();
+            WriteLine("You lived happy with your ");
+            Friends.NumOfFriends();
+            Write("friends, all cosy in a home that you've called your own! (We'll being snack for the after party!)");
+            WriteLine();
+            WriteLine("Thanks for playing my game!");
+            WriteLine();
+            WriteLine("1) PLay again? \n 2) Quit");
             string choice = ReadLine();
             if (choice == "1")
             {

@@ -42,3 +42,14 @@ C:\Users\Marc G\Documents\GitHub\MotherBlock\MotherBlock\MotherBlock\obj\Debug\n
 C:\Users\Marc G\Documents\GitHub\MotherBlock\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.AssemblyInfo.cs
 C:\Users\Marc G\Documents\GitHub\MotherBlock\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.dll
 C:\Users\Marc G\Documents\GitHub\MotherBlock\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.pdb
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\bin\Debug\netcoreapp2.1\MotherBlock.deps.json
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\bin\Debug\netcoreapp2.1\MotherBlock.runtimeconfig.json
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\bin\Debug\netcoreapp2.1\MotherBlock.runtimeconfig.dev.json
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\bin\Debug\netcoreapp2.1\MotherBlock.dll
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\bin\Debug\netcoreapp2.1\MotherBlock.pdb
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.csprojAssemblyReference.cache
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.csproj.CoreCompileInputs.cache
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.AssemblyInfoInputs.cache
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.AssemblyInfo.cs
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.dll
+C:\workspace\MotherBlock-master\MotherBlock\MotherBlock\obj\Debug\netcoreapp2.1\MotherBlock.pdb
