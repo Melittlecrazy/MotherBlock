@@ -96,7 +96,7 @@ namespace MotherBlock
             string choice = ReadLine();
             if (choice == "3")
             {
-                Friends.Encounter();
+               Friend = Friends.Encounter();
             }
             else if (choice == "1")
             {
@@ -127,7 +127,7 @@ namespace MotherBlock
             string choice = ReadLine();
             if (choice == "3")
             {
-                Friends.Encounter();
+               Friend = Friends.Encounter();
             }
             else if (choice == "2")
             {
